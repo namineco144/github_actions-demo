@@ -1,0 +1,20 @@
+[project]
+name = "github_actions-python-lint"
+version = "0.1.0"
+description = "GitHub ActionsでPython Lintを実行するためのワークフローテンプレート"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    
+]
+
+[dependency-groups]
+dev = [
+    "pytest"
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+]

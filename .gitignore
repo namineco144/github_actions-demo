@@ -1,0 +1,26 @@
+# python
+*.pyc
+__pycache__
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info
+dist
+build
+.eggs
+*.manifest
+*.spec
+*.whl
+.ruff_cache
+.pytest_cache
+.pytest_cache/
+.cache
+.venv
+
+*.db
+*.sqlite3
+*.log
+.env
+
+uv.lock
